@@ -2,7 +2,8 @@
 
 ## Overview
 
-This JavaScript script automates the extraction of data from a table within a webpage, likely from a stock screener tool. The extracted data is then formatted into a CSV file for easy analysis and download.
+This is a script to export the tickertape screener results. The extracted data is then formatted into a CSV file for easy analysis and download.
+
 
 ## Features
 
@@ -13,8 +14,8 @@ This JavaScript script automates the extraction of data from a table within a we
 
 ## Usage Instructions
 
-1. **Install (if needed):** If the script requires any external libraries or dependencies, mention them here and provide installation instructions.
-2. **Open Target Page:** Navigate to the webpage containing the table you want to scrape. Ensure the table is visible and loaded.
+1. **Install (if needed):** This Script does not requires any external libraries or dependencies installation.
+2. **Open Target Page:** Navigate to the webpage containing the table you want to scrape. Ensure the table is visible and loaded. Fully load all the data by clicking Load More if needed.
 3. **Open Developer Tools and Console:**
     * **Chrome/Edge/Opera:** Right-click anywhere on the page and select "Inspect" or press `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Option+I` (Mac). Then click on the "Console" tab.
     * **Firefox:** Right-click anywhere on the page and select "Inspect Element" or press `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Option+I` (Mac). Then click on the "Console" tab.
@@ -28,18 +29,23 @@ This JavaScript script automates the extraction of data from a table within a we
 * **Disclaimer:** Web scraping should always be done responsibly and ethically. Be sure to review the terms of service of the target website before using this script.
 * **Customization:** The selector `#screener-table table` is specific to the target table's ID.  If your table has a different structure, you'll need to modify this selector.
 
-## Example (if applicable)
+## Example
 
-Provide a screenshot or a sample CSV output to illustrate the results of the script.
+**Screenshot to illustrate the results of the script.**
+![Screenshot Description](https://github.com/khosa76/exam/blob/main/Screenshot%20(155).png)
 
-## Troubleshooting (Optional)
+**Sample CSV output to illustrate the results of the script.**
+![Screenshot Description](https://github.com/khosa76/exam/blob/main/Screenshot%20(156).png)
 
-If users might encounter common issues, list them here with potential solutions.
 
-## Contributing (Optional)
+## Troubleshooting
 
-If you welcome contributions, outline how others can get involved.
+You will not encounter with any issue tickertape update the site structure
 
-## License (Optional)
+## Contributing
 
-Specify the license (e.g., MIT, GPL) under which you are releasing this script.
+Contributions are welcome! Please feel free to submit a pull request or open an issue with any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
